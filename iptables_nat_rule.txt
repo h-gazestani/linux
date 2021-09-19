@@ -43,7 +43,34 @@ iptables -A INPUT -j DROP
 
 ---------------------------------------
 iptables -L --line-numbers
+
+# Delete rule
+--------------------------------------
+iptables -L --line-numbers
+iptables -D INPUT 3
+
+iptables -D INPUT -m conntrack --ctstate INVALID -j DROP
+
+
+# Flush
+--------------------------------------
+iptables --flush         # Delete all of the firewall rules
+iptables -F
+
+iptables -X              # Delete all non-default chains
+
+
+iptables --flush INPUT   # Delete all of the rules in the INPUT chain
 iptables -F INPUT
 
+iptables -t nat --flush  # Delete all of the rules in the NAT table
+iptables -t nat -F  
 
+iptables -t mangle --flush  # Delete all of the rules in the MANGLE table
+iptables -t mangle -F  
 
+# clear the counters
+---------------------------------------------
+iptables -Z
+iptables -Z INPUT
+iptables -Z INPUT 1
