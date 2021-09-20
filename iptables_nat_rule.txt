@@ -58,6 +58,11 @@ iptables -L --line-numbers
 iptables -L --line-numbers
 iptables -D INPUT 3
 
+iptables -t nat -v -L POSTROUTING -n --line-number
+iptables -t nat -D POSTROUTING {number-here}
+
+
+
 iptables -D INPUT -m conntrack --ctstate INVALID -j DROP
 
 
