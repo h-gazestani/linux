@@ -42,4 +42,6 @@ Shift Ctrl U
 🖜  1F49C
 💝 1F49B
 
+https://unicode-table.com/en/#basic-latin
+
 
