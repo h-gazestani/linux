@@ -1,4 +1,4 @@
-- [Install Bind9 on Ubuntu-20.04](#Install Bind9 on Ubuntu-20.04)
+- [Install Bind9 on Ubuntu-20.04](#Install-Bind9-on-Ubuntu-20.04)
 - [1- What is DNS Encryption](#1--What-is-DNS-Encryption)
 - [2- Build a Basic BIND Infrastructure](#2--Build-a-Basic-BIND-Infrastructure)
 - [3- Generating DNSSEC Keys](#3--Generating-DNSSEC-Keys)
