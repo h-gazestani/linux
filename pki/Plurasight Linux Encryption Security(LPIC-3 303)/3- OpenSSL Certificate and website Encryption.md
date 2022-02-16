@@ -1,4 +1,4 @@
-- [2-The openssl command line interface](#2-The-openssl-command line-interface)
+- [2-The openssl command line interface](#2-The-openssl-command-line-interface)
 - [3-Generating a Certificate Signing Request](##3-Generating-a-Certificate-Signing-Request)
   - [Generate a CSR](#Generate-a-CSR)
 - [4-Building-a-Private-Certificate-Authority](#4-Building-a-Private-Certificate-Authority)
