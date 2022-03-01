@@ -2,7 +2,7 @@
 
 ### backup
 ```shell
-sudo tar -cvpzf backup.tar.gz --exclude=/home/server/backup.`date +%d-%m-%y`.tar.gz --one-file-system / 
+sudo tar -cvpzf backup.`date +%d-%m-%y`.tar.gz --exclude=/home/server/backup.`date +%d-%m-%y`.tar.gz --one-file-system / 
 	-c	create new tar file
 	-v	verbos
 	-p	preserve permissions
