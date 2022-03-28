@@ -60,11 +60,11 @@
     * .cer
     * .key
     * .ca-bundle
-    * ![pem]()
+    * ![pem](https://github.com/hojat-gazestani/linux/blob/main/pki/Plurasight%20Linux%20Encryption%20Security(LPIC-3%20303)/Pic/5-pem%20format.png)
   * DER (binary) - most commonly seen in Java contexts.
     * .der
     * .cer
-    * ![der]()
+    * ![der](https://github.com/hojat-gazestani/linux/blob/main/pki/Plurasight%20Linux%20Encryption%20Security(LPIC-3%20303)/Pic/6-der%20format.png)
   
 * .DER Distinguished Encoding Rules
 * .PEM Privacy-enhanced Electronic Mail
