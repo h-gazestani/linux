@@ -113,6 +113,11 @@ openssl ca -in basereq.pem -out server_crt.pem
 cat signedcerts/01.pem
 ```
 
+### sign csr
+```
+openssl x509 -req -in ../first-crt.pem -days 365 -CA cacert.pem -CAkey private/cakey.pem -CAcreateserial -out ../first-crti.pem
+```
+
 ## 5-Revoking a Certificate
 ```commandline
 mkdir revoked
