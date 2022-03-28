@@ -1,0 +1,63 @@
+## Related defenition
+
+* The Secure Sockets Layer version 3.0 (SSLv3), as specified in RFC 6101, is not sufficiently secure.
+  * https://datatracker.ietf.org/doc/html/rfc7568
+
+* The replacement versions, in particular, Transport Layer Security (TLS) 1.2 (RFC 5246) are considerably more secure and
+   capable protocols.
+  * https://datatracker.ietf.org/doc/html/rfc5246
+  * the protocol runs on layer six of the OSI model, between TCP and end user protocols like HTTP
+  * ![osi]()
+  * Common Encrypted and Unencrypted Ports
+  * ![ports]()
+
+* Symmetric Cryptography
+  * the use of a single shared secret to share encrypted data between parties.
+  * Ciphers in this category are called symmetric because you use the same key to encrypt and to decrypt the data.
+  * ![symmetric ctryptography]()
+* Asymmetric Cryptography
+  * Uses pairs of keys. Each pair consists of a public key and a private key. 
+
+* Certificate Authority (CA)
+  * Responsible for issuing 
+  * Revoking
+  * Distributing Digital Certificate
+
+* Digital Certificate contain
+  * Owner Identity
+  * Public key
+  * CA particulars 
+  * Cryptographic data
+
+### cipher suite
+* grouping of configuration choices that can serve to define a wide range of encryption and transfer behavior
+  * TLS: defines the protocol that this cipher suite is for
+  * ECDHE: key exchange algorithm
+  * RSA: authentication mechanism during the handshake
+  * AES session cipher
+  * SHA
+  * SHA: message authentication algorithm 
+
+* e.g:
+  * TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+  *     TLS defines the protocol that this cipher suite is for; it will usually be TLS.
+  *     ECDHE indicates the key exchange algorithm being used.
+  *     RSA authentication mechanism during the handshake.
+  *     AES session cipher.
+  *     128 session encryption key size (bits) for cipher.
+  *     GCM type of encryption (cipher-block dependency and additional options).
+  *     SHA (SHA2)hash function. For a digest of 256 and higher. Signature mechanism. Indicates the message authentication algorithm which is used to authenticate a message.
+  *     256 Digest size (bits).
+
+### X509 Certificate encoding
+* express the certificate's data structure
+
+* two major encoding
+  * PEM (Base64 ASCII)
+  * DER (binary)
+
+* .DER Distinguished Encoding Rules
+* .PEM Privacy-enhanced Electronic Mail
+* PKCS Public key Cryptography Standards
+
+### Openssl
