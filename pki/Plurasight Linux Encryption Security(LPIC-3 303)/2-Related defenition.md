@@ -7,16 +7,17 @@
    capable protocols.
   * https://datatracker.ietf.org/doc/html/rfc5246
   * the protocol runs on layer six of the OSI model, between TCP and end user protocols like HTTP
-  * ![osi]()
+  * ![osi](https://github.com/hojat-gazestani/linux/blob/main/pki/Plurasight%20Linux%20Encryption%20Security(LPIC-3%20303)/Pic/1-osi.png)
   * Common Encrypted and Unencrypted Ports
-  * ![ports]()
+  * ![ports](https://github.com/hojat-gazestani/linux/blob/main/pki/Plurasight%20Linux%20Encryption%20Security(LPIC-3%20303)/Pic/2-ports.png)
 
 * Symmetric Cryptography
   * the use of a single shared secret to share encrypted data between parties.
   * Ciphers in this category are called symmetric because you use the same key to encrypt and to decrypt the data.
-  * ![symmetric ctryptography]()
+  * ![symmetric ctryptography](https://github.com/hojat-gazestani/linux/blob/main/pki/Plurasight%20Linux%20Encryption%20Security(LPIC-3%20303)/Pic/3-symmetric%20cryptography.png)
 * Asymmetric Cryptography
   * Uses pairs of keys. Each pair consists of a public key and a private key. 
+  * ![asymmetric](https://github.com/hojat-gazestani/linux/blob/main/pki/Plurasight%20Linux%20Encryption%20Security(LPIC-3%20303)/Pic/4-Asymmetric%20Ctryptophragy.png)
 
 * Certificate Authority (CA)
   * Responsible for issuing 
