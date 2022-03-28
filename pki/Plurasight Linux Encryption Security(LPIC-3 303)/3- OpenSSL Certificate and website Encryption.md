@@ -115,6 +115,7 @@ cat signedcerts/01.pem
 
 ### sign csr
 ```
+openssl x509 -in csr.pem -text -noout
 openssl x509 -req -in ../first-crt.pem -days 365 -CA cacert.pem -CAkey private/cakey.pem -CAcreateserial -out ../first-crti.pem
 ```
 
