@@ -55,10 +55,29 @@
 
 * two major encoding
   * PEM (Base64 ASCII)
-  * DER (binary)
-
+    * .crt
+    * .pem
+    * .cer
+    * .key
+    * .ca-bundle
+    * ![pem]()
+  * DER (binary) - most commonly seen in Java contexts.
+    * .der
+    * .cer
+    * ![der]()
+  
 * .DER Distinguished Encoding Rules
 * .PEM Privacy-enhanced Electronic Mail
 * PKCS Public key Cryptography Standards
 
+* PKCS#7 (P7B)
+  * found in Windows and Java server contexts,
+    * .p7b
+* PKCS#12 (PKCS12 or PFX) 
+  * binary format for storing a certificate chain and private key in a single, encryptable file
+    * .p12
+    * .pfx
+
 ### Openssl
+* OpenSSL is a software library for applications that secure communications over computer networks against eavesdropping or need to identify the party at the other end. It is widely used by Internet servers, including the majority of HTTPS websites
+* OpenSSL is a very useful open-source command-line toolkit for working with X.509 certificates, certificate signing requests (CSRs), and cryptographic keys
