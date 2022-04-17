@@ -1,6 +1,7 @@
-------------------------------------------------------
-ADD, STATUS, COMMIT
--------------------
+# Git
+
+## ADD, STATUS, COMMIT
+
 cd ww/project
 git init
 ls -la .git
@@ -40,9 +41,10 @@ modified : index.html
 git add -A
 git status
 git commit -m "commited all"
----------------------------------------------------------------
-JOB HISTORY: GIT LOG
---------------------
+
+
+## JOB HISTORY: GIT LOG
+
 git log
 
 vim page1.html
@@ -87,9 +89,9 @@ git commit -m "commit on index.html"
 
 git log
 
----------------------------------------------------------------
-HISTORY OF CHANGES
--------------------
+
+## HISTORY OF CHANGES
+
 
 git status
 
@@ -107,9 +109,9 @@ git checkout -- page3.html
 
 git commit
 
----------------------------------------------------------------------
-BRANCHES
---------
+
+## BRANCHES
+
 
 git branch
 *master
@@ -156,9 +158,9 @@ git merge fixpages
 
 git log
 
-----------------
-COUNTINIOU BRANCHES
-----------------
+
+## COUNTINIOU BRANCHES
+
 git branch linkingpages
 
 git checkout linkingpages
@@ -189,9 +191,9 @@ git merge linkingpages
 
 git branch -d linkingpages
 
-----------------------------
-COUNTINIOU BRANCHES - REMOTE
-----------------------------
+
+## COUNTINIOU BRANCHES - REMOTE
+
 
 git push origin maser
 gazestani
@@ -199,9 +201,9 @@ password
 
 git pull origin master
 
----------------------------------------------------------------------
-CONFLICT
---------
+
+## CONFLICT
+
 
 cd ww/project
 
@@ -241,9 +243,9 @@ git commit -m "fix the conflict on new line"
 
 git push 
 
---------------------------------------------------------------------------
-SIGN AND TAG
-------------
+
+## SIGN AND TAG
+
 
 pgp
 gpg
@@ -281,9 +283,9 @@ git tag -v v2.1
 
 git commit -S  -m "this is sign commit"
 
--------------------------------------------------------------
-DEBUG
------
+
+## DEBUG
+
 
 git help blame
 
@@ -295,9 +297,9 @@ git bisect start
 git bisect bad
 git bisect good SOME-SIGNE-STADE 
 
------------------------------------------------------------
-GITLAB
-------
+
+## GITLAB
+
 
 
 
