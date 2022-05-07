@@ -21,9 +21,6 @@ sudo nmcli con add type bridge-slave ifname enp0s20u2 master virbr1
 
 nmcli con up virbr1
 
-# Delete bridge slave
-sudo nmcli connection delete bridge-slave-enp0s20u2
-
 # Enable STP
 sudo nmcli con modify virbr1 bridge.stp yes
 nmcli -f bridge con show virbr1
